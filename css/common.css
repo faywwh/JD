@@ -1,0 +1,33 @@
+body {
+  font-size: 14px;
+  background: #f4f4f4;
+}
+
+@font-face {
+  font-family: 'iconfont';
+  src: url('./font/iconfont.eot?t=1598515399171'); /* IE9 */
+  src: url('./font/iconfont.eot?t=1598515399171#iefix')
+      format('embedded-opentype'),
+    /* IE6-IE8 */
+      url('./font/data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAANIAAsAAAAABxwAAAL6AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCCfgqCBIIEATYCJAMMCwgABCAFhG0HQBtMBlGUzMkW2ddQRWRy+gEJFNgY4gY+9IoA4DkGfvQUFv/DKM4GCgAAxMPXfq/n7u5HdIlKSiwBJaOqqqtl1YlqhUSj2KMw6FioqLe1lnkCIzL+WL56Lir0B9kDzqbkCJypUhWyFa5NMFb/b3Bu/+Lv0YQE0RsjU8WiJTyU8YRoqOKZKNbFQ6cBUVOP9Q7PVZv+FaDd3DI2X+6MOJw2RaL5QLmsOWxj1AUYBxTQ2IusQEJvGLvAJWwm0LbI0Dm8P72AscLqFYhbaezDOBdQFJZuCvWaiUU8UdNMK+kTHoffj/92xJikllkDT9zcRbD8xS/zQ4UrPoFwPhvYNDI2AYU4V+s4oRcnNulpa4m+JbCvVsEvq/mFbxJ7pSXir3Myu2AdlKc7EroKtyaEV0gggzoaOALchtTpUTWp2yoj5mO/lOqSC/Y+83Jb33WiB+bPsWfi9ppgYoTOVTqoGH2ZuEEGkf794p9P9P2OfL/V2OGHB7JYhldcpfMLnkWIv9MmfR893anbgfl8+5EjO23ncOcnwzMFA9VgaKgNt0L/sITvd4RHDFAYDAoJcCHPk6SNL64vV+dSPgAa3zSgNGwEDeQN5B3j+p3McAOgqvLDjGo1P8q//Tc+1H51nd1ds1PA11cOu1SrRYbmjTmDnyzsWVZ0sWXMRRW4AjOdbTF4Db227laxPGN/41Wz3jFCMydkSBoWkDUtEQt1E2o6dqGuaR/aNjqY3jHBeqK0sMErQBj6RtL3HtnQD7FQf1Ez94+6YfTQdi4mC3asiXR6iMkXijC4xzSsK+WYZRpln1F8XficFYf0K2KdhtG1nGL6gCriOYbom9gTUai4LnEPtqOiqLHhOqNQrESkWdi2qnuTFdYlTB3CiE+QCArcQ6lQraL86mJa+vwZErtW8HFLSY3zCmFaWj9yWZwexANF1avkXq7RbsQ8QihIYbUS2oN2pFCooaa+XYaEhCUZEWss2HYl1Vdhra8qv28NtFnFOVLkKFq3HjSF9EsJYrsLAAAA')
+      format('woff2'),
+    url('./font/iconfont.woff?t=1598515399171') format('woff'),
+    url('./font/iconfont.ttf?t=1598515399171') format('truetype'),
+    /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+      url('./font/iconfont.svg?t=1598515399171#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: 'iconfont' !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.clearfix::after {
+  content: '';
+  clear: both;
+  height: 0;
+  display: block;
+}
